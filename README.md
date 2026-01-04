@@ -8,3 +8,6 @@ download video in specific resolution; in this case the video with the best qual
 download the audio only of certain video... I'm assuming this defaults to the best audio format but I've not confirmed\
 ..\yt-dlp.exe -x https://www.youtube.com/watch?v=FQUYF7HtxEE
 
+don't gorget to look into\
+* CDS and AOT to reduce memory footprint
+* GraalVM compilation seems to reduce the memory consumption even more
