@@ -11,3 +11,9 @@ download the audio only of certain video... I'm assuming this defaults to the be
 don't gorget to look into\
 * CDS and AOT to reduce memory footprint
 * GraalVM compilation seems to reduce the memory consumption even more
+
+Journaling setup for systemd ubuntu24
+SystemMaxUse=500M (The total disk space all journals can take).
+SystemMaxFileSize=100M (The maximum size of a single journal file before it rotates)
+
+
