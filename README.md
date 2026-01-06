@@ -16,4 +16,7 @@ Journaling setup for systemd ubuntu24
 SystemMaxUse=500M (The total disk space all journals can take).
 SystemMaxFileSize=100M (The maximum size of a single journal file before it rotates)
 
+to get wildcard certs do the following
+sudo certbot certonly --manual --preferred-challenges=dns
 
+it assumes you manage the domain so that you can add TXT records, when prompted for a domain name add both the "normal domain" andd the one including a wildcard. (eg. mydomain.com *.mydomain.com )
